@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "code": "QQSKIL",
+      "name": "Enchanted Chronicles",
+      "category": "Fantasy",
+      "price": 30000,
+      "quantity": 150,
+      "id": "001"
+    },
+    {
+      "code": "BK1002",
+      "name": "Digital Painting Mastery",
+      "category": "Art & Design",
+      "price": 2976,
+      "quantity": 75,
+      "id": "002"
+    },
+    {
+      "code": "BK1003",
+      "name": "Space Exploration Guide",
+      "category": "Science",
+      "price": 2499,
+      "quantity": 200,
+      "id": "003"
+    },
+    {
+      "code": "BK1004",
+      "name": "Global Cuisine Wonders",
+      "category": "Cookbook",
+      "price": 3963,
+      "quantity": 12,
+      "id": "004"
+    },
+    {
+      "code": "BK1005",
+      "name": "Ancient Civilizations Secrets",
+      "category": "History",
+      "price": 2299,
+      "quantity": 85,
+      "id": "005"
+    },
+    {
+      "code": "BK1006",
+      "name": "Midnight Library Mystery",
+      "category": "Mystery",
+      "price": 1899,
+      "quantity": 60,
+      "id": "006"
+    },
+    {
+      "code": "BK1007",
+      "name": "Zen of Minimalism",
+      "category": "Self-Help",
+      "price": 1594,
+      "quantity": 200,
+      "id": "007"
+    },
+    {
+      "code": "BK1008",
+      "name": "World Epic Poems",
+      "category": "Poetry",
+      "price": 2122,
+      "quantity": 140,
+      "id": "008"
+    },
+    {
+      "code": "BK1009",
+      "name": "Future of Robotics",
+      "category": "Technology",
+      "price": 8386,
+      "quantity": 90,
+      "id": "009"
+    },
+    {
+      "code": "BK1010",
+      "name": "Marine Life Guide",
+      "category": "Nature",
+      "price": 3299,
+      "quantity": 110,
+      "id": "010"
+    }
+  ]
+}

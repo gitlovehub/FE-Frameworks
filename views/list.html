@@ -1,0 +1,34 @@
+<h2 class="text-center py-5">{{title}}</h2>
+
+<a href="#!/add-product" class="btn btn-primary float-end mb-4">Thêm mới sản phẩm</a>
+
+<table class="table table-light table-hover">
+    <thead>
+        <tr class="text-uppercase">
+            <th>ID</th>
+            <th>Mã sách</th>
+            <th>Tên sách</th>
+            <th>Loại sách</th>
+            <th>Giá bán</th>
+            <th>Số lượng</th>
+            <th class="col-2 text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in listProduct">
+            <td>{{item.id}}</td>
+            <td>{{item.code}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.category}}</td>
+            <td>£{{item.price}}</td>
+            <td>{{item.quantity}}</td>
+            <td>
+                <div class="text-center">
+                    <a href="#!/view-product/{{item.id}}" class="btn btn-outline-success">Chi tiết</a>
+                    <a href="#!/edit-product/{{item.id}}" class="btn btn-outline-warning">Sửa</a>
+                    <button ng-click="del(item.id)" class="btn btn-outline-danger">Xóa</button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
